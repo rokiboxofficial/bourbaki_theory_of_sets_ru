@@ -1,0 +1,15 @@
+{
+  "name": "Теория множеств",
+  "short_name": "Теория множеств",
+  "start_url": "/bourbaki_theory_of_sets_ru/",
+  "scope": "/bourbaki_theory_of_sets_ru/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/bourbaki_theory_of_sets_ru/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

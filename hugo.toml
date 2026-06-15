@@ -1,0 +1,12 @@
+baseURL = "https://rokiboxofficial.github.io/bourbaki_theory_of_sets_ru/"
+languageCode = "ru"
+title = "Теория множеств"
+
+theme = "hugo-book"
+
+disablePathToLower = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
