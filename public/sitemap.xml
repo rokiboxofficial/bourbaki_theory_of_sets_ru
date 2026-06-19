@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/tags/</loc>
+    <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/</loc>
   </url><url>
     <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/point2/</loc>
   </url><url>
+    <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/exercises/</loc>
+  </url><url>
     <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/</loc>
+  </url><url>
+    <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/</loc>
   </url>

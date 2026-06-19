@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Глава 1. Описание формальной математики on Теория множеств</title>
-		<link>http://localhost:1313/docs/chapter1/paragraph1/</link>
-		<description>Recent content in Глава 1. Описание формальной математики on Теория множеств</description>
+		<title>§ 1. Термы и соотношения on Теория множеств</title>
+		<link>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/</link>
+		<description>Recent content in § 1. Термы и соотношения on Теория множеств</description>
 		<generator>Hugo</generator>
 		<language>ru</language>
 		
 		
 		
 		
-			<atom:link href="http://localhost:1313/docs/chapter1/paragraph1/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Теория плпалпла</title>
-				<link>http://localhost:1313/docs/chapter1/paragraph1/point1/</link>
+				<title>2. Критерии подстановки</title>
+				<link>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/point2/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/docs/chapter1/paragraph1/point1/</guid>
-				<description>&lt;p&gt;\maketitle&lt;/p&gt;&#xA;&lt;p&gt;\section*{CS1}&#xA;Сравним операцию перехода от $A$ к $(B|x)A$ с операцией перехода от $A$ к $(B|x&amp;rsquo;)(x&amp;rsquo;|x)A$.&lt;/p&gt;&#xA;&lt;p&gt;При обеих операциях не изменяется ни один знак, содержащийся в $A$ и отличный от $x$.&#xA;На каждое место, где $x$ встречается в $A$, мы должны подставить $B$ вместо $x$ как при первой,&#xA;так и при второй операции: это очевидно для первой, а для второй это вытекает из того,&#xA;что $x&amp;rsquo;$ не встречается в $A$.&lt;/p&gt;</description>
+				<guid>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/point2/</guid>
+				<description>&lt;h1 id=&#34;критерии-подстановки&#34;&gt;Критерии подстановки&lt;a class=&#34;anchor&#34; href=&#34;#%d0%ba%d1%80%d0%b8%d1%82%d0%b5%d1%80%d0%b8%d0%b8-%d0%bf%d0%be%d0%b4%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b8&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;cs1&#34;&gt;CS1&lt;a class=&#34;anchor&#34; href=&#34;#cs1&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Сравним операцию перехода от $\boldsymbol{A}$ к $(\boldsymbol{B}|\boldsymbol{x})\boldsymbol{A}$ с операцией перехода от $\boldsymbol{A}$ к $(\boldsymbol{B}|\boldsymbol{x}^{\prime})(\boldsymbol{x}^{\prime}|\boldsymbol{x})\boldsymbol{A}$.&lt;/p&gt;&#xA;&lt;p&gt;При обеих операциях не изменяется ни один знак, содержащийся в $\boldsymbol{A}$ и отличный от $\boldsymbol{x}$. На каждое место, где $\boldsymbol{x}$ встречается в $\boldsymbol{A}$, мы должны подставить $\boldsymbol{B}$ вместо $\boldsymbol{x}$ как при первой, так и при второй операции: это очевидно для первой, а для второй это вытекает из того, что $\boldsymbol{x}^{\prime}$ не встречается в $\boldsymbol{A}$.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Упражнения</title>
+				<link>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/exercises/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph1/exercises/</guid>
+				<description>&lt;h1 id=&#34;упражнения&#34;&gt;Упражнения&lt;a class=&#34;anchor&#34; href=&#34;#%d1%83%d0%bf%d1%80%d0%b0%d0%b6%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;упражнение-1&#34;&gt;Упражнение 1)&lt;a class=&#34;anchor&#34; href=&#34;#%d1%83%d0%bf%d1%80%d0%b0%d0%b6%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-1&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;11&#34;&gt;1.1&lt;a class=&#34;anchor&#34; href=&#34;#11&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Пусть $\boldsymbol{A}_1, \boldsymbol{A}_2, \dots, \boldsymbol{A}_n$ — формативная конструкция теории $\mathcal{T}$, где $\boldsymbol{A}_n$ — единственное знакосочетание &lt;strong&gt;второго рода&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;По определению формативной конструкции, для каждого знакосочетания $\boldsymbol{A}$ из последовательности $\boldsymbol{A}_1, \boldsymbol{A}_2, \dots, \boldsymbol{A}_n$ должно выполняться одно из условий. Покажем, что для $\boldsymbol{A}_n$ не выполняется ни одно из них:&lt;/p&gt;&#xA;&lt;p&gt;а) $\boldsymbol{A}_n$ является знакосочетанием второго рода, значит, по определению знакосочетания второго рода, $\boldsymbol{A}_n$ не сводится к одной букве. $\boldsymbol{A}_n$ — не буква.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
