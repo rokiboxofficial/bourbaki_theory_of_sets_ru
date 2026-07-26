@@ -99,3 +99,39 @@ weight: 10
 Такой формативной конструкции теории $\mathcal{T}$ не существует.
 
 Пусть $\boldsymbol{A}$ - терм или соотношение теории $\mathcal{T}$. Каждый специальный знак, если он имеется в $\boldsymbol{A}$, предшествует некоторому знаку $\square$, или знаку $\tau$, или букве, или субстантивному знаку.
+
+## Упражнение 4)
+
+Пусть $\boldsymbol{A}$ - соотношение или терм теории $\mathcal{T}$, $\boldsymbol{A}_n$ - соотношение или терм этой теории длины n, а $\boldsymbol{B}$ - знакосочетание этой теории.
+
+Покажем шаг за шагом, $\boldsymbol{AB}$ не есть $\boldsymbol{A}_n$. Предположим, что мы установили утверждение для $\boldsymbol{A}\_{n-1}$, и установим это для $\boldsymbol{A}_n$.
+
+Предположим, что $\boldsymbol{AB}$ есть $\boldsymbol{A}_n$. Для каждого терма или соотношения, по определению, должно выполняться одно из условий формативной конструкции. Покажем, что для $\boldsymbol{A}_n$ не выполняется ни одно из условий:
+
+а) $\boldsymbol{A}_n$ есть буква. Знакосочетание $\boldsymbol{AB}$ имеет длину, как минимум, 2. Значит, $\boldsymbol{AB}$ не есть $\boldsymbol{A}_n$
+
+б) $\boldsymbol{A}_n$ есть $\lnot\boldsymbol{A}_j$, где $\boldsymbol{A}_j$ есть соотношение теории $\mathcal{T}$. Так как $\boldsymbol{AB}$ есть $\boldsymbol{A}_n$, значит, $\boldsymbol{A}$ начинается со знака $\lnot$. По определению соотношения, $\boldsymbol{A}$ есть $\lnot\boldsymbol{A}_m$, где $\boldsymbol{A}_m$ есть соотношение теории $\mathcal{T}$. Значит, $\lnot\boldsymbol{A}_j$ есть $\lnot\boldsymbol{A}_m\boldsymbol{B}$, то есть $\boldsymbol{A}_j$ есть $\boldsymbol{A}_m\boldsymbol{B}$. Длина знакосочетания $\boldsymbol{A}_m\boldsymbol{B}$ меньше длины $\boldsymbol{A}_n$, но мы уже установили, что термы и соотношения длины меньше чем n, не есть $\boldsymbol{HY}$, где $\boldsymbol{H}$ - терм или соотношение теории $\mathcal{T}$, а $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$.
+
+в) $\boldsymbol{A}_n$ есть $\lor\boldsymbol{A}_j\boldsymbol{A}_k$, где $\boldsymbol{A}_j$ и $\boldsymbol{A}_k$ суть соотношения теории $\mathcal{T}$. Так как $\boldsymbol{AB}$ есть $\boldsymbol{A}_n$, значит, $\boldsymbol{A}$ начинается со знака $\lor$. По определению соотношения, $\boldsymbol{A}$ есть $\lor\boldsymbol{A}_m\boldsymbol{A}_q$, где $\boldsymbol{A}_m$ и $\boldsymbol{A}_q$ суть соотношения теории $\mathcal{T}$. Значит, $\lor\boldsymbol{A}_j\boldsymbol{A}_k$ есть $\lor\boldsymbol{A}_m\boldsymbol{A}_q\boldsymbol{B}$.
+
+Если длина соотношения $\boldsymbol{A}_j$ есть длина соотношения $\boldsymbol{A}_m$, значит, $\boldsymbol{A}_k$ есть $\boldsymbol{A}_q\boldsymbol{B}$. Длина знакосочетания $\boldsymbol{A}_q\boldsymbol{B}$ меньше длины $\boldsymbol{A}_n$, но мы уже установили, что термы и соотношения длины меньше чем n, не есть $\boldsymbol{HY}$, где $\boldsymbol{H}$ - терм или соотношение теории $\mathcal{T}$, а $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$.
+
+Пусть $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$. Если длина соотношения $\boldsymbol{A}_j$ не есть длина соотношения $\boldsymbol{A}_m$, значит, либо $\boldsymbol{A}_j$ есть $\boldsymbol{A}_m\boldsymbol{Y}$, либо $\boldsymbol{A}_m$ есть $\boldsymbol{A}_j\boldsymbol{Y}$. Длина каждого из знакосочетаний $\boldsymbol{A}_m\boldsymbol{Y}$ и $\boldsymbol{A}_j\boldsymbol{Y}$ меньше длины $\boldsymbol{A}_n$, но мы уже установили, что термы и соотношения длины меньше чем n, не есть $\boldsymbol{HY}$, где $\boldsymbol{H}$ - терм или соотношение теории $\mathcal{T}$, а $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$.
+
+г) $\boldsymbol{A}_n$ есть $\tau_x(\boldsymbol{A}_j)$, где $\boldsymbol{A}_j$ есть соотношение теории $\mathcal{T}$. Так как $\boldsymbol{AB}$ есть $\boldsymbol{A}_n$, значит, $\boldsymbol{A}$ начинается со знака $\tau$. По определению терма, $\boldsymbol{A}$ есть $\tau_x(\boldsymbol{A}_m)$, где $\boldsymbol{A}_m$ есть соотношение теории $\mathcal{T}$. Значит, $\tau_x(\boldsymbol{A}_j)$ есть $\tau_x(\boldsymbol{A}_m)\boldsymbol{B}$.
+
+Пусть $\boldsymbol{B}$ содержит $\boldsymbol{x}$, значит, $\tau_x(\boldsymbol{A_m})\boldsymbol{B}$ содержит $\boldsymbol{x}$. Но $\tau_x(\boldsymbol{A}_j)$, по определению операции $\tau_u(C)$, где $\boldsymbol{C}$ - знакосочетание, а $\boldsymbol{x}$ - буква, не содержит $\boldsymbol{x}$.
+
+Пусть $\boldsymbol{B}$ не содержит $\boldsymbol{x}$. Покажем, что $\tau_x(\boldsymbol{A}_m)\boldsymbol{B}$ есть $\tau_x(\boldsymbol{A}_m\boldsymbol{B})$.
+
+Сравним операцию перехода от $\boldsymbol{A}_m$ и $\boldsymbol{B}$ к $\tau_x(\boldsymbol{A}_m)\boldsymbol{B}$ с операцией перехода от $\boldsymbol{A}_m$ и $\boldsymbol{B}$ к $\tau_x(\boldsymbol{A}_m\boldsymbol{B})$. При обеих операциях мы пишем слева направо знакосочетание $\tau\boldsymbol{A}_m\boldsymbol{B}$, соединяем связью каждый экземпляр буквы $\boldsymbol{x}$ в $\boldsymbol{A}_m$ со знаком $\tau$, написанным слева от $\boldsymbol{A}_m$, и заменяем букву $\boldsymbol{x}$, каждый ее экземпляр в $\boldsymbol{A}_m$ символом $\square$. При обеих операциях не изменяется ни один знак, содержащийся в $\boldsymbol{B}$: это очевидно для первой операции, а для второй это вытекает из того, что $\boldsymbol{x}$ не содержится в $\boldsymbol{B}$.
+
+Знакосочетание $\tau_x(\boldsymbol{A}_m)\boldsymbol{B}$ есть $\tau_x(\boldsymbol{A}_m\boldsymbol{B})$, значит, $\tau_x(\boldsymbol{A}_m\boldsymbol{B})$ есть $\tau_x(\boldsymbol{A}_j)$, то есть $\boldsymbol{A}_m\boldsymbol{B}$ есть $\boldsymbol{A}_j$. Длина знакосочетания $\boldsymbol{A}_m\boldsymbol{B}$ меньше длины $\boldsymbol{A}_n$, но мы уже установили, что термы и соотношения длины меньше чем n, не есть $\boldsymbol{HY}$, где $\boldsymbol{H}$ - терм или соотношение теории $\mathcal{T}$, а $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$.
+
+д) $\boldsymbol{A}_n$ есть $\boldsymbol{s}\boldsymbol{J}_1\boldsymbol{J}_2...\boldsymbol{J}_p$, где $\boldsymbol{s}$ - специальный знак веса p из $\mathcal{T}$, а $\boldsymbol{J}_1$, $\boldsymbol{J}_2$, ..., $\boldsymbol{J}_p$ - p термов теории $\mathcal{T}$. Так как $\boldsymbol{AB}$ есть $\boldsymbol{A}_n$, значит, $\boldsymbol{A}$ начинается со знака $\boldsymbol{s}$. По определению терма и соотношения, $\boldsymbol{A}$ есть $\boldsymbol{s}\boldsymbol{M}_1\boldsymbol{M}_2...\boldsymbol{M}_p$, где $\boldsymbol{M}_1$, $\boldsymbol{M}_2$, ..., $\boldsymbol{M}_p$ - p термов теории $\mathcal{T}$. Значит, $\boldsymbol{s}\boldsymbol{J}_1\boldsymbol{J}_2...\boldsymbol{J}_p$ есть $\boldsymbol{s}\boldsymbol{M}_1\boldsymbol{M}_2...\boldsymbol{M}_p\boldsymbol{B}$.
+
+Рассмотрим i = 1, 2, ..., p-1. Если существует такое i, выберем наименьшее из них, для которого длина знакосочетания $\boldsymbol{J}_i$ не есть длина знакосочетания $\boldsymbol{M}_i$. Пусть $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$, тогда либо $\boldsymbol{J}_i$ есть $\boldsymbol{M}_i\boldsymbol{Y}$, либо $\boldsymbol{M}_i$ есть $\boldsymbol{J}_i\boldsymbol{Y}$. Длина каждого из знакосочетаний $\boldsymbol{J}_i\boldsymbol{Y}$ и $\boldsymbol{M}_i\boldsymbol{Y}$ меньше длины $\boldsymbol{A}_n$, но мы уже установили, что термы и соотношения длины меньше чем n, не есть $\boldsymbol{HY}$, где $\boldsymbol{H}$ - терм или соотношение теории $\mathcal{T}$, а $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$.
+
+Если такого i не существует, значит, $\boldsymbol{J}_p$ есть $\boldsymbol{M}_p\boldsymbol{B}$. Длина знакосочетания $\boldsymbol{M}_p\boldsymbol{B}$ меньше длины $\boldsymbol{A}_n$, но мы уже установили, что термы и соотношения длины меньше чем n, не есть $\boldsymbol{HY}$, где $\boldsymbol{H}$ - терм или соотношение теории $\mathcal{T}$, а $\boldsymbol{Y}$ - знакосочетание теории $\mathcal{T}$.
+
+Пусть $\boldsymbol{A}$ - терм или соотношение теории $\mathcal{T}$, а $\boldsymbol{B}$ - знакосочетание этой теории. Знакосочетание $\boldsymbol{AB}$ не есть ни терм, ни соотношение теории $\mathcal{T}$.
