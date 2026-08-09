@@ -206,3 +206,44 @@ weight: 10
 Пусть $\boldsymbol{A}$ - соотношение или терм теории $\mathcal{T}$, $\boldsymbol{A}_n$ - соотношение или терм этой теории длины n, а $\boldsymbol{B}$ - знакосочетание этой теории. Знакосочетание $\boldsymbol{AB}$ не есть $\boldsymbol{A}_n$.
 
 Пусть знакосочетание $\boldsymbol{AB}$ есть терм или соотношение теории $\mathcal{T}$ длины n, тогда $\boldsymbol{AB}$ есть $\boldsymbol{A}_n$, но $\boldsymbol{AB}$ не есть $\boldsymbol{A}_n$, значит, знакосочетание $\boldsymbol{AB}$ не есть ни терм, ни соотношение теории $\mathcal{T}$.
+
+## Упражнение 5)
+
+### 5.1
+
+Пусть $\boldsymbol{J}$, $\boldsymbol{K}$ - знакосочетания теории $\mathcal{T}$, а $\boldsymbol{x}$ - буква. Если $\tau_x(\boldsymbol{J})$ есть $\tau_x(\boldsymbol{K})$, то $\boldsymbol{J}$ есть $\boldsymbol{K}$. Пусть $\tau_x(\boldsymbol{J})$ есть $\tau_x(\boldsymbol{K})$.
+
+Пусть $\boldsymbol{J}$ не есть $\boldsymbol{K}$, значит, либо длина знакосочетания $\boldsymbol{J}$ не есть длина знакосочетания $\boldsymbol{K}$, либо последовательность знаков знакосочетания $\boldsymbol{J}$ не есть последовательность знаков знакосочетания $\boldsymbol{K}$, либо связи знакосочетания $\boldsymbol{J}$ не суть связи знакосочетания $\boldsymbol{K}$.
+
+Пусть длина знакосочетания $\boldsymbol{J}$ не есть длина знакосочетания $\boldsymbol{K}$. Длина знакосочетания $\tau_x(\boldsymbol{J})$, по определению, есть длина знакосочетания $\boldsymbol{J}$ + 1, а длина знакосочетания $\tau_x(\boldsymbol{K})$ есть дли знакосочетания $\boldsymbol{K}$ + 1. Так как длина знакосочетания $\boldsymbol{J}$ не есть длина знакосочетания $\boldsymbol{K}$, значит, длина знакосочетания $\tau_x(\boldsymbol{J})$ не есть длина знакосочетания $\tau_x(\boldsymbol{K})$, но $\tau_x(\boldsymbol{J})$ есть $\tau_x(\boldsymbol{K})$. Длина знакосочетания $\boldsymbol{J}$ есть длина знакосочетания $\boldsymbol{K}$.
+
+Значит, либо последовательность знаков знакосочетания $\boldsymbol{J}$ не есть последовательность знаков знакосочетания $\boldsymbol{K}$, либо связи знакосочетания $\boldsymbol{J}$ не суть связи знакосочетания $\boldsymbol{K}$.
+
+Рассмотрим i = 1, 2, ..., p, где p - длина знакосочетания $\boldsymbol{J}$. Возьмем наименьший i, если такой есть, для которого знак под номером i в знакосочетании $\boldsymbol{J}$ не есть знак под номером i в знакосочетании $\boldsymbol{K}$ или связь между знаками под номерами i и m в знакосочетании $\boldsymbol{J}$ не есть связь между знаками под номерами i и m в знакосочетании $\boldsymbol{K}$.
+
+Если связь между знаками под номерами i и m в знакосочетании $\boldsymbol{J}$ не есть связь между знаками под номерами i и m в знакосочетании $\boldsymbol{K}$, то, без потери общности, по определению операции перехода от $\boldsymbol{K}$ к $\tau_x(\boldsymbol{K})$, данная связь не может появится при переходе от $\boldsymbol{K}$ к $\tau_x(\boldsymbol{K})$, ведь в $\tau_x(\boldsymbol{K})$ могут появится только связи со знаком $\tau$, написанным слева от $\boldsymbol{K}$, значит, связь между знаками под номерами i + 1 и m + 1 в знакосочетании $\tau_x(\boldsymbol{J})$ не есть связь между знаками под номерами i + 1 и m + 1 в знакосочетании $\tau_x(\boldsymbol{K})$, то есть $\tau_x(\boldsymbol{J})$ не есть $\tau_x(\boldsymbol{K})$, но $\tau_x(\boldsymbol{J})$ есть $\tau_x(\boldsymbol{K})$. Значит, связи $\boldsymbol{J}$ суть связи $\boldsymbol{K}$.
+
+Так как связи $\boldsymbol{J}$ суть связи $\boldsymbol{K}$, значит, знак под номером i в $\boldsymbol{J}$ не есть знак под номером i в $\boldsymbol{K}$.
+
+Если знак под номером i в $\boldsymbol{J}$ не есть $\boldsymbol{x}$ и знак под номером i в $\boldsymbol{K}$ не есть $\boldsymbol{x}$, то знак под номером i + 1 в $\tau_x(\boldsymbol{J})$ не есть знак под номером i + 1 в $\tau_x(\boldsymbol{K})$, так как, без потери общности, по определению операции перехода от $\boldsymbol{J}$ к $\tau_x(\boldsymbol{J})$, лишь знаки $\boldsymbol{x}$ заменяются на знаки $\square$, остальные знаки остаются без изменений.
+
+Пусть, без потери общности, знак под номером i в $\boldsymbol{J}$ есть $\boldsymbol{x}$, а знак под номером i в $\boldsymbol{K}$ не есть $\boldsymbol{x}$. По определению операции перехода от $\boldsymbol{J}$ к $\tau_x(\boldsymbol{J})$, знак $\square$ под номером i + 1 в $\tau_x(\boldsymbol{J})$ будет связан со знаком $\tau$ под номером 1 в $\tau_x(\boldsymbol{J})$, а знак под номером i + 1 в $\tau_x(\boldsymbol{K})$ не будет связан со знаком под номером 1 в $\tau_x(\boldsymbol{K})$. Но связи $\tau_x(\boldsymbol{J})$ суть связи $\tau_x(\boldsymbol{K}))$.
+
+Знакосочетание $\boldsymbol{J}$ не есть $\boldsymbol{K}$, но длина знакосочетания $\boldsymbol{J}$ есть длина знакосочетания $\boldsymbol{K}$, последовательность знаков знакосочетания $\boldsymbol{J}$ есть последовательность знаков знакосочетания $\boldsymbol{K}$, а связи знакосочетания $\boldsymbol{J}$ суть связи знакосочетания $\boldsymbol{K}$. Значит, $\boldsymbol{J}$ есть $\boldsymbol{K}$.
+
+### 5.2
+
+Пусть $\boldsymbol{A}$ - знакосочетание теории $\mathcal{T}$, а $\boldsymbol{x}$ - буква. Если $\tau_x(\boldsymbol{A})$ - терм теории $\mathcal{T}$, то $\boldsymbol{A}$ - соотношение теории $\mathcal{T}$.
+
+Пусть $\tau_x(\boldsymbol{A})$ - терм теории $\mathcal{T}$, значит, по определению терма, существует формативная конструкция $\boldsymbol{B}_1$, $\boldsymbol{B}_2$, ..., $\boldsymbol{B}_n$, где $\boldsymbol{B}_t$ есть $\tau_x(\boldsymbol{A})$. Так как $\boldsymbol{B}_t$ начинается со знака $\tau$, то, определению терма, знакосочетание $\boldsymbol{B}_t$ есть $\tau_u(\boldsymbol{B}_k)$, где $\boldsymbol{B}_k$ - соотношение, которое предшествует $\boldsymbol{B}_t$ в этой формативной конструкции, а $\boldsymbol{u}$ - буква.
+
+Пусть $\boldsymbol{u}$ есть $\boldsymbol{x}$, тогда, $\tau_u(\boldsymbol{B}_k)$ есть $\tau_x(\boldsymbol{B}_k)$, то есть $\tau_x(\boldsymbol{A})$ есть $\tau_x(\boldsymbol{B}_k)$.
+
+Пусть $\boldsymbol{u}$ не есть $\boldsymbol{x}$. Покажем, что $\boldsymbol{B}_k$ не содержит $\boldsymbol{x}$. Пусть $\boldsymbol{B}_k$ содержит $\boldsymbol{x}$, тогда, $\tau_u(\boldsymbol{B}_k)$, по определению, тоже содержит $\boldsymbol{x}$, но $\tau_u(\boldsymbol{B}_k)$ есть $\tau_x(\boldsymbol{A})$, а $\tau_x(\boldsymbol{A})$, по определению, не содержит $\boldsymbol{x}$. Значит, знакосочетание $\boldsymbol{B}_k$ не содержит $\boldsymbol{x}$.
+
+Так как $\boldsymbol{B}_k$ не содержит $\boldsymbol{x}$, то, согласно CS3, $\tau_u(\boldsymbol{B}_k)$ есть $\tau_x((x|u)\boldsymbol{B}_k)$, значит, $\tau_x(\boldsymbol{A})$ есть $\tau_x((x|u)\boldsymbol{B}_k)$.
+Согласно CF7, $(x|u)\boldsymbol{B}_k$ - соотношение теории $\mathcal{T}$, ведь $\boldsymbol{B}_k$ - соотношение теории $\mathcal{T}$.
+
+Пусть $\boldsymbol{G}$ есть $(x|u)\boldsymbol{B}_k$. Тогда, $\tau_x(\boldsymbol{A})$ есть либо $\tau_x(\boldsymbol{B}_k)$, либо $\tau_x(\boldsymbol{G})$.
+
+Согласно 5.1, $\boldsymbol{A}$ есть либо $\boldsymbol{B}_k$, либо $\boldsymbol{G}$, где $\boldsymbol{B}_k$, $\boldsymbol{G}$ - соотношения теории $\mathcal{T}$. Знакосочетание $\boldsymbol{A}$ есть соотношение теории $\mathcal{T}$.
