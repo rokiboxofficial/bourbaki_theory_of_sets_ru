@@ -253,3 +253,52 @@ weight: 10
 Пусть $\boldsymbol{G}$ есть $(x|u)\boldsymbol{B}_k$. Тогда, $\tau_x(\boldsymbol{A})$ есть либо $\tau_x(\boldsymbol{B}_k)$, либо $\tau_x(\boldsymbol{G})$.
 
 Согласно 5.1, $\boldsymbol{A}$ есть либо $\boldsymbol{B}_k$, либо $\boldsymbol{G}$, где $\boldsymbol{B}_k$, $\boldsymbol{G}$ - соотношения теории $\mathcal{T}$. Знакосочетание $\boldsymbol{A}$ есть соотношение теории $\mathcal{T}$.
+
+
+## Упражнение 6)
+
+### 6.1
+
+Пусть $\boldsymbol{A}$, $\boldsymbol{B}$, $\boldsymbol{C}$, $\boldsymbol{D}$ - знакосочетания теории $\mathcal{T}$, причем $\boldsymbol{AB}$ есть $\boldsymbol{CD}$. Если длина знакосочетания $\boldsymbol{A}$ есть длина $\boldsymbol{C}$, то $\boldsymbol{B}$ есть $\boldsymbol{D}$.
+
+Пусть длина $\boldsymbol{A}$ есть длина $\boldsymbol{C}$.   
+Пусть k - длина знакосочетаний $\boldsymbol{A}$ и $\boldsymbol{C}$.  
+Пусть t - длина знакосочетаний $\boldsymbol{AB}$ и $\boldsymbol{CD}$.  
+Значит, t - k есть длина знакосочетаний $\boldsymbol{B}$ и $\boldsymbol{D}$.  
+Длина знакосочетания $\boldsymbol{B}$ есть длина знакосочетания $\boldsymbol{D}$.
+
+Знакосочетание $\boldsymbol{AB}$ (соответственно $\boldsymbol{CD}$) есть знакосочетание, полученное записью слева направо знакосочетания $\boldsymbol{A}$ (соответственно $\boldsymbol{C}$) и знакосочетания $\boldsymbol{B}$ (соответственно $\boldsymbol{D}$).  
+То есть, каждый знак под номером i в $\boldsymbol{B}$ (соответственно $\boldsymbol{D}$) есть знак под номером k + i в $\boldsymbol{AB}$ (соответственно $\boldsymbol{CD}$), а каждая связь между знаками под номерами i и j в $\boldsymbol{B}$ (соответственно $\boldsymbol{D}$) есть связь между знаками k + i и k + j в $\boldsymbol{AB}$ (соответственно $\boldsymbol{CD}$).
+
+Пусть знакосочетание $\boldsymbol{B}$ не есть $\boldsymbol{D}$.
+
+Пусть i - такой номер знака в $\boldsymbol{B}$, если такой существует, что знак под номером i в $\boldsymbol{B}$ не есть знак под номером i в $\boldsymbol{D}$. Значит, знак под номером k + i в $\boldsymbol{AB}$ не есть знак под номером k + i в $\boldsymbol{CD}$, но каждый знак под номером k + i в $\boldsymbol{AB}$ есть знак под номером k + i в $\boldsymbol{CD}$.
+
+Пусть i, j - такие номера знаков в $\boldsymbol{B}$, если такие существуют, что связь между знаками под номерами i, j в $\boldsymbol{B}$ не есть связь между знаками под номерами i, j в $\boldsymbol{D}$. Значит, связь между знаками под номерами k + i, k + j в $\boldsymbol{AB}$ не есть связь между знаками под номерами k + i, k + j в $\boldsymbol{CD}$, но каждая связь между знаками под номерами k + i и k + j в $\boldsymbol{AB}$ есть связь между знаками k + i и k + j в $\boldsymbol{CD}$. 
+
+Значит, $\boldsymbol{B}$ есть $\boldsymbol{D}$.
+
+### 6.2
+
+Пусть $\boldsymbol{A}$ и $\boldsymbol{B}$ - знакосочетаниия теории $\mathcal{T}$. Если $\boldsymbol{A}$ и $\implies\boldsymbol{A}\boldsymbol{B}$ - соотношения теории $\mathcal{T}$, то и $\boldsymbol{B}$ - соотношение этой теории.
+
+Пусть $\boldsymbol{A}$ и $\implies\boldsymbol{A}\boldsymbol{B}$ - соотношения теории $\mathcal{T}$.  
+Соотношение $\implies\boldsymbol{A}\boldsymbol{B}$, по определению $\implies$, есть соотношение $\lor\lnot\boldsymbol{A}\boldsymbol{B}$.  
+Так как $\boldsymbol{A}$ - соотношение теории $\mathcal{T}$, то, согласно CF2, $\lnot\boldsymbol{A}$ также есть соотношение теории $\mathcal{T}$.  
+Пусть $\boldsymbol{A}^{\prime}$ есть соотношение $\lnot\boldsymbol{A}$, тогда соотношение $\lor\lnot\boldsymbol{A}\boldsymbol{B}$ есть $\lor\boldsymbol{A}^{\prime}\boldsymbol{B}$.
+
+Так как $\lor\lnot\boldsymbol{A}\boldsymbol{B}$ - соотношение теории $\mathcal{T}$, которое начинается со знака $\lor$, то $\lor\lnot\boldsymbol{A}\boldsymbol{B}$, согласно 4.4, есть $\lor\boldsymbol{J}\boldsymbol{K}$, где $\boldsymbol{J}$, $\boldsymbol{K}$ - суть соотношения теории $\mathcal{T}$.
+
+Соотношение $\lor\boldsymbol{J}\boldsymbol{K}$ есть $\lor\boldsymbol{A}^{\prime}\boldsymbol{B}$.
+
+Знакосочетание $\boldsymbol{J}\boldsymbol{K}$ есть $\boldsymbol{A}^{\prime}\boldsymbol{B}$, согласно 6.1.
+
+$\boldsymbol{J}$, $\boldsymbol{K}$, $\boldsymbol{A}^{\prime}$, $\boldsymbol{B}$ - знакосочетания теории $\mathcal{T}$, а знакосочетание $\boldsymbol{J}\boldsymbol{K}$ есть знакосочетание $\boldsymbol{A}^{\prime}\boldsymbol{B}$.
+
+Если длина $\boldsymbol{J}$ меньше длины $\boldsymbol{A}^{\prime}$, то, согласно 4.3, $\boldsymbol{W}$ - такое знакосочетание теории $\mathcal{T}$, что $\boldsymbol{J}\boldsymbol{W}$ есть $\boldsymbol{A}^{\prime}$. Так как $\boldsymbol{A}^{\prime}$ - соотношение теории $\mathcal{T}$, то и $\boldsymbol{J}\boldsymbol{W}$ - соотношение этой теории. Но, так как $\boldsymbol{J}$ - соотношение этой теории, то, согласно упражнению 4, $\boldsymbol{J}\boldsymbol{W}$ не есть ни терм, ни соотношение теории $\mathcal{T}$. Значит, длина $\boldsymbol{J}$ не меньше длины $\boldsymbol{A}^{\prime}$.
+
+Если длина $\boldsymbol{J}$ больше длины $\boldsymbol{A}^{\prime}$, то, согласно 4.3, $\boldsymbol{W}$ - такое знакосочетание теории $\mathcal{T}$, что $\boldsymbol{A}^{\prime}\boldsymbol{W}$ есть $\boldsymbol{J}$. Так как $\boldsymbol{J}$ - соотношение теории $\mathcal{T}$, то и $\boldsymbol{A}^{\prime}\boldsymbol{W}$ - соотношение этой теории. Но, так как $\boldsymbol{A}^{\prime}$ - соотношение этой теории, то, согласно упражнению 4, $\boldsymbol{A}^{\prime}\boldsymbol{W}$ не есть ни терм, ни соотношение теории $\mathcal{T}$. Значит, длина $\boldsymbol{J}$ не больше длины $\boldsymbol{A}^{\prime}$.
+
+Либо длина знакосочетания $\boldsymbol{J}$ есть длина знакосочетания $\boldsymbol{A}^{\prime}$, либо длина знакосочетания $\boldsymbol{J}$ меньше длины знакосочетания $\boldsymbol{A}^{\prime}$, либо длина знакосочетания $\boldsymbol{J}$ больше длины знакосочетания $\boldsymbol{A}^{\prime}$.
+
+Длина $\boldsymbol{J}$ не больше длины $\boldsymbol{A}^{\prime}$. Длина $\boldsymbol{J}$ не меньше длины $\boldsymbol{A}^{\prime}$. Значит, длина $\boldsymbol{J}$ есть длина $\boldsymbol{A}^{\prime}$. Так как соотношение $\lor\boldsymbol{J}\boldsymbol{K}$ есть $\lor\boldsymbol{A}^{\prime}\boldsymbol{B}$, то знакосочетание $\boldsymbol{K}$ есть $\boldsymbol{B}$, согласно 6.1. Знакосочетание $\boldsymbol{K}$ - соотношение теории $\mathcal{T}$, значит, $\boldsymbol{B}$ - также соотношение теории $\mathcal{T}$.

@@ -29,7 +29,7 @@ https://github.com/alex-shpak/hugo-book
 	<meta itemprop="description" content="Упражнения#Упражнение 1)#1.1#Пусть $\boldsymbol{A}_1, \boldsymbol{A}_2, \dots, \boldsymbol{A}_n$ — формативная конструкция теории $\mathcal{T}$, где $\boldsymbol{A}_n$ — единственное знакосочетание второго рода.
 По определению формативной конструкции, для каждого знакосочетания $\boldsymbol{A}$ из последовательности $\boldsymbol{A}_1, \boldsymbol{A}_2, \dots, \boldsymbol{A}_n$ должно выполняться одно из условий. Покажем, что для $\boldsymbol{A}_n$ не выполняется ни одно из них:
 а) $\boldsymbol{A}_n$ является знакосочетанием второго рода, значит, по определению знакосочетания второго рода, $\boldsymbol{A}_n$ не сводится к одной букве. $\boldsymbol{A}_n$ — не буква.">
-	<meta itemprop="wordCount" content="4766">
+	<meta itemprop="wordCount" content="5373">
 
 <title>Упражнения • Теория множеств</title>
 <link rel="icon" href="/bourbaki_theory_of_sets_ru/favicon.png" >
@@ -38,7 +38,7 @@ https://github.com/alex-shpak/hugo-book
 <link rel="stylesheet" href="/bourbaki_theory_of_sets_ru/book.min.bc143c103c035bae1a91d5aad87760f96748dd2dc55ba27e2e60aa8ece39e869.css" integrity="sha256-vBQ8EDwDW64akdWq2Hdg&#43;WdI3S3FW6J&#43;LmCqjs456Gk=" crossorigin="anonymous">
 
 
-  <script defer type="module" src="/bourbaki_theory_of_sets_ru/en.search.min.3354f97dafdf78fc527ef3a579674931f192a7ea6eb14aedfb0ce0b4d43096ba.js" integrity="sha256-M1T5fa/fePxSfvOleWdJMfGSp&#43;pusUrt&#43;wzgtNQwlro=" crossorigin="anonymous"></script>
+  <script defer type="module" src="/bourbaki_theory_of_sets_ru/en.search.min.d3ec0d46a90f5149fae7518c085448163f1a8defb3c10d5c48b1616e873bd439.js" integrity="sha256-0&#43;wNRqkPUUn651GMCFRIFj8aje&#43;zwQ1cSLFhboc71Dk=" crossorigin="anonymous"></script>
 
   <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
@@ -245,6 +245,12 @@ document.addEventListener("DOMContentLoaded", function() {
         <li><a href="#53">5.3</a></li>
       </ul>
     </li>
+    <li><a href="#упражнение-6">Упражнение 6)</a>
+      <ul>
+        <li><a href="#61">6.1</a></li>
+        <li><a href="#62">6.2</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -393,6 +399,34 @@ document.addEventListener("DOMContentLoaded", function() {
 Согласно CF7, $(x|u)\boldsymbol{B}_k$ - соотношение теории $\mathcal{T}$, ведь $\boldsymbol{B}_k$ - соотношение теории $\mathcal{T}$.</p>
 <p>Пусть $\boldsymbol{G}$ есть $(x|u)\boldsymbol{B}_k$. Тогда, $\tau_x(\boldsymbol{A})$ есть либо $\tau_x(\boldsymbol{B}_k)$, либо $\tau_x(\boldsymbol{G})$.</p>
 <p>Согласно 5.1, $\boldsymbol{A}$ есть либо $\boldsymbol{B}_k$, либо $\boldsymbol{G}$, где $\boldsymbol{B}_k$, $\boldsymbol{G}$ - соотношения теории $\mathcal{T}$. Знакосочетание $\boldsymbol{A}$ есть соотношение теории $\mathcal{T}$.</p>
+<h2 id="упражнение-6">Упражнение 6)<a class="anchor" href="#%d1%83%d0%bf%d1%80%d0%b0%d0%b6%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-6">#</a></h2>
+<h3 id="61">6.1<a class="anchor" href="#61">#</a></h3>
+<p>Пусть $\boldsymbol{A}$, $\boldsymbol{B}$, $\boldsymbol{C}$, $\boldsymbol{D}$ - знакосочетания теории $\mathcal{T}$, причем $\boldsymbol{AB}$ есть $\boldsymbol{CD}$. Если длина знакосочетания $\boldsymbol{A}$ есть длина $\boldsymbol{C}$, то $\boldsymbol{B}$ есть $\boldsymbol{D}$.</p>
+<p>Пусть длина $\boldsymbol{A}$ есть длина $\boldsymbol{C}$.<br>
+Пусть k - длина знакосочетаний $\boldsymbol{A}$ и $\boldsymbol{C}$.<br>
+Пусть t - длина знакосочетаний $\boldsymbol{AB}$ и $\boldsymbol{CD}$.<br>
+Значит, t - k есть длина знакосочетаний $\boldsymbol{B}$ и $\boldsymbol{D}$.<br>
+Длина знакосочетания $\boldsymbol{B}$ есть длина знакосочетания $\boldsymbol{D}$.</p>
+<p>Знакосочетание $\boldsymbol{AB}$ (соответственно $\boldsymbol{CD}$) есть знакосочетание, полученное записью слева направо знакосочетания $\boldsymbol{A}$ (соответственно $\boldsymbol{C}$) и знакосочетания $\boldsymbol{B}$ (соответственно $\boldsymbol{D}$).<br>
+То есть, каждый знак под номером i в $\boldsymbol{B}$ (соответственно $\boldsymbol{D}$) есть знак под номером k + i в $\boldsymbol{AB}$ (соответственно $\boldsymbol{CD}$), а каждая связь между знаками под номерами i и j в $\boldsymbol{B}$ (соответственно $\boldsymbol{D}$) есть связь между знаками k + i и k + j в $\boldsymbol{AB}$ (соответственно $\boldsymbol{CD}$).</p>
+<p>Пусть знакосочетание $\boldsymbol{B}$ не есть $\boldsymbol{D}$.</p>
+<p>Пусть i - такой номер знака в $\boldsymbol{B}$, если такой существует, что знак под номером i в $\boldsymbol{B}$ не есть знак под номером i в $\boldsymbol{D}$. Значит, знак под номером k + i в $\boldsymbol{AB}$ не есть знак под номером k + i в $\boldsymbol{CD}$, но каждый знак под номером k + i в $\boldsymbol{AB}$ есть знак под номером k + i в $\boldsymbol{CD}$.</p>
+<p>Пусть i, j - такие номера знаков в $\boldsymbol{B}$, если такие существуют, что связь между знаками под номерами i, j в $\boldsymbol{B}$ не есть связь между знаками под номерами i, j в $\boldsymbol{D}$. Значит, связь между знаками под номерами k + i, k + j в $\boldsymbol{AB}$ не есть связь между знаками под номерами k + i, k + j в $\boldsymbol{CD}$, но каждая связь между знаками под номерами k + i и k + j в $\boldsymbol{AB}$ есть связь между знаками k + i и k + j в $\boldsymbol{CD}$.</p>
+<p>Значит, $\boldsymbol{B}$ есть $\boldsymbol{D}$.</p>
+<h3 id="62">6.2<a class="anchor" href="#62">#</a></h3>
+<p>Пусть $\boldsymbol{A}$ и $\boldsymbol{B}$ - знакосочетаниия теории $\mathcal{T}$. Если $\boldsymbol{A}$ и $\implies\boldsymbol{A}\boldsymbol{B}$ - соотношения теории $\mathcal{T}$, то и $\boldsymbol{B}$ - соотношение этой теории.</p>
+<p>Пусть $\boldsymbol{A}$ и $\implies\boldsymbol{A}\boldsymbol{B}$ - соотношения теории $\mathcal{T}$.<br>
+Соотношение $\implies\boldsymbol{A}\boldsymbol{B}$, по определению $\implies$, есть соотношение $\lor\lnot\boldsymbol{A}\boldsymbol{B}$.<br>
+Так как $\boldsymbol{A}$ - соотношение теории $\mathcal{T}$, то, согласно CF2, $\lnot\boldsymbol{A}$ также есть соотношение теории $\mathcal{T}$.<br>
+Пусть $\boldsymbol{A}^{\prime}$ есть соотношение $\lnot\boldsymbol{A}$, тогда соотношение $\lor\lnot\boldsymbol{A}\boldsymbol{B}$ есть $\lor\boldsymbol{A}^{\prime}\boldsymbol{B}$.</p>
+<p>Так как $\lor\lnot\boldsymbol{A}\boldsymbol{B}$ - соотношение теории $\mathcal{T}$, которое начинается со знака $\lor$, то $\lor\lnot\boldsymbol{A}\boldsymbol{B}$, согласно 4.4, есть $\lor\boldsymbol{J}\boldsymbol{K}$, где $\boldsymbol{J}$, $\boldsymbol{K}$ - суть соотношения теории $\mathcal{T}$.</p>
+<p>Соотношение $\lor\boldsymbol{J}\boldsymbol{K}$ есть $\lor\boldsymbol{A}^{\prime}\boldsymbol{B}$.</p>
+<p>Знакосочетание $\boldsymbol{J}\boldsymbol{K}$ есть $\boldsymbol{A}^{\prime}\boldsymbol{B}$, согласно 6.1.</p>
+<p>$\boldsymbol{J}$, $\boldsymbol{K}$, $\boldsymbol{A}^{\prime}$, $\boldsymbol{B}$ - знакосочетания теории $\mathcal{T}$, а знакосочетание $\boldsymbol{J}\boldsymbol{K}$ есть знакосочетание $\boldsymbol{A}^{\prime}\boldsymbol{B}$.</p>
+<p>Если длина $\boldsymbol{J}$ меньше длины $\boldsymbol{A}^{\prime}$, то, согласно 4.3, $\boldsymbol{W}$ - такое знакосочетание теории $\mathcal{T}$, что $\boldsymbol{J}\boldsymbol{W}$ есть $\boldsymbol{A}^{\prime}$. Так как $\boldsymbol{A}^{\prime}$ - соотношение теории $\mathcal{T}$, то и $\boldsymbol{J}\boldsymbol{W}$ - соотношение этой теории. Но, так как $\boldsymbol{J}$ - соотношение этой теории, то, согласно упражнению 4, $\boldsymbol{J}\boldsymbol{W}$ не есть ни терм, ни соотношение теории $\mathcal{T}$. Значит, длина $\boldsymbol{J}$ не меньше длины $\boldsymbol{A}^{\prime}$.</p>
+<p>Если длина $\boldsymbol{J}$ больше длины $\boldsymbol{A}^{\prime}$, то, согласно 4.3, $\boldsymbol{W}$ - такое знакосочетание теории $\mathcal{T}$, что $\boldsymbol{A}^{\prime}\boldsymbol{W}$ есть $\boldsymbol{J}$. Так как $\boldsymbol{J}$ - соотношение теории $\mathcal{T}$, то и $\boldsymbol{A}^{\prime}\boldsymbol{W}$ - соотношение этой теории. Но, так как $\boldsymbol{A}^{\prime}$ - соотношение этой теории, то, согласно упражнению 4, $\boldsymbol{A}^{\prime}\boldsymbol{W}$ не есть ни терм, ни соотношение теории $\mathcal{T}$. Значит, длина $\boldsymbol{J}$ не больше длины $\boldsymbol{A}^{\prime}$.</p>
+<p>Либо длина знакосочетания $\boldsymbol{J}$ есть длина знакосочетания $\boldsymbol{A}^{\prime}$, либо длина знакосочетания $\boldsymbol{J}$ меньше длины знакосочетания $\boldsymbol{A}^{\prime}$, либо длина знакосочетания $\boldsymbol{J}$ больше длины знакосочетания $\boldsymbol{A}^{\prime}$.</p>
+<p>Длина $\boldsymbol{J}$ не больше длины $\boldsymbol{A}^{\prime}$. Длина $\boldsymbol{J}$ не меньше длины $\boldsymbol{A}^{\prime}$. Значит, длина $\boldsymbol{J}$ есть длина $\boldsymbol{A}^{\prime}$. Так как соотношение $\lor\boldsymbol{J}\boldsymbol{K}$ есть $\lor\boldsymbol{A}^{\prime}\boldsymbol{B}$, то знакосочетание $\boldsymbol{K}$ есть $\boldsymbol{B}$, согласно 6.1. Знакосочетание $\boldsymbol{K}$ - соотношение теории $\mathcal{T}$, значит, $\boldsymbol{B}$ - также соотношение теории $\mathcal{T}$.</p>
 </article>
  
       
@@ -484,6 +518,12 @@ document.addEventListener("DOMContentLoaded", function() {
         <li><a href="#51">5.1</a></li>
         <li><a href="#52">5.2</a></li>
         <li><a href="#53">5.3</a></li>
+      </ul>
+    </li>
+    <li><a href="#упражнение-6">Упражнение 6)</a>
+      <ul>
+        <li><a href="#61">6.1</a></li>
+        <li><a href="#62">6.2</a></li>
       </ul>
     </li>
   </ul>
