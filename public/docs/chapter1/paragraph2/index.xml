@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>§ 2. Теоремы on Теория множеств</title>
+		<link>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph2/</link>
+		<description>Recent content in § 2. Теоремы on Теория множеств</description>
+		<generator>Hugo</generator>
+		<language>ru</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph2/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Упражнения</title>
+				<link>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph2/exercises/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/bourbaki_theory_of_sets_ru/docs/chapter1/paragraph2/exercises/</guid>
+				<description>&lt;h1 id=&#34;упражнения&#34;&gt;Упражнения&lt;a class=&#34;anchor&#34; href=&#34;#%d1%83%d0%bf%d1%80%d0%b0%d0%b6%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;а&#34;&gt;а)&lt;a class=&#34;anchor&#34; href=&#34;#%d0%b0&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Необходимость:&lt;/p&gt;&#xA;&lt;p&gt;Пусть $\boldsymbol{A}_n$ не зависит от других аксиом $\mathcal{T}$.&lt;/p&gt;&#xA;&lt;p&gt;Пусть $\boldsymbol{A}_n$ - теорема $\mathcal{T}^{\prime}$. Так как $\boldsymbol{A}_1$, $\boldsymbol{A}_2$, &amp;hellip;, $\boldsymbol{A}_{n-1}$ - явные аксиомы $\mathcal{T}^{\prime}$, очевидно, что $\boldsymbol{A}_1$, $\boldsymbol{A}_2$, &amp;hellip;, $\boldsymbol{A}_{n-1}$ являются теоремами $\mathcal{T}^{\prime}$, ведь последовательность аксиом есть доказательство. Так как $\boldsymbol{A}_n$ - теорема $\mathcal{T}^{\prime}$, то $\boldsymbol{A}_1$, $\boldsymbol{A}_2$, &amp;hellip;, $\boldsymbol{A}_n$ - теоремы $\mathcal{T}^{\prime}$.&lt;br&gt;&#xA;$\boldsymbol{A}_1$, $\boldsymbol{A}_2$, &amp;hellip;, $\boldsymbol{A}_n$ - явные аксиомы $\mathcal{T}$.&lt;/p&gt;&#xA;&lt;p&gt;Так как все явные аксиомы $\mathcal{T}$ являются теоремами $\mathcal{T}^{\prime}$, все знаки $\mathcal{T}$ являются знаками $\mathcal{T}^{\prime}$, а схемы $\mathcal{T}$ являются схемами $\mathcal{T}^{\prime}$, то $\mathcal{T}^{\prime}$ сильнее $\mathcal{T}$.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
